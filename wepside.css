@@ -1,0 +1,371 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+#nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+}
+
+#logo {
+  width: 100px;
+  height: 75px;
+  position: fixed;
+  top: 12.5px;
+  left: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbuttons {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#navbutton1 {
+  background-image: url(emage/menu\ 1.png);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  height: 60%;
+  width: 60px;
+  border: 0px;
+  box-shadow: 0px 0px 10px 0px rgb(211, 211, 211);
+}
+
+#navbutton1:hover {
+  background-image: url(emage/menu\ 2.png);
+  transition: all 0.5s;
+}
+
+#navbutton2 {
+  background-image: url(emage/search.png);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  height: 60%;
+  width: 60px;
+  border: 0px;
+  box-shadow: 0px 0px 10px 0px rgb(211, 211, 211);
+}
+
+#navbutton2:hover {
+  background-image: url(emage/search\ 2.png);
+  transition: all 0.5s;
+}
+
+#navbutton3 {
+  background-image: url(emage/user.png);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  height: 60%;
+  width: 60px;
+  border: 0px;
+  box-shadow: 0px 0px 10px 0px rgb(211, 211, 211);
+}
+
+#navbutton3:hover {
+  background-image: url(emage/user\ 2.png);
+  transition: all 0.5s;
+}
+
+#part1 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#filter {
+  filter: brightness(0.5);
+  background-image: url(emage/back\ ground\ img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#h2 {
+  margin-left: 25%;
+}
+
+#h1 {
+  margin-left: 25%;
+}
+
+#h1 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#p {
+  margin-left: 25%;
+}
+
+#part1buttons {
+  margin-left: 25%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 500px;
+  position: absolute;
+  top: 460px;
+}
+
+#part1button1 {
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  background-color: #ff5b37;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  transition: all 0.5s;
+}
+
+#part1button1:hover {
+  color: #ff5b37;
+  background-color: white;
+}
+
+#part1button2:hover {
+  color: #ff5b37;
+  background-color: white;
+}
+
+#part1button2 {
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  background-color: #ff5b37;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  transition: all 0.5s;
+}
+
+#part2 {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  top: 680px;
+  left: 5%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px grey;
+}
+
+#part2contaner {
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#name {
+  width: 50%;
+  height: 60px;
+  border: 1px solid rgb(170, 168, 168);
+  font-size: 25px;
+  text-align: center;
+  max-width: 250px;
+}
+
+#part2h1 {
+  width: 50%;
+  height: 60px;
+  border: 1px solid rgb(170, 168, 168);
+  text-align: center;
+  max-width: 250px;
+  background-color: white;
+}
+
+#part2h11 {
+  width: 50%;
+  height: 60px;
+  border: 1px solid rgb(170, 168, 168);
+  text-align: center;
+  max-width: 250px;
+  background-color: white;
+}
+
+#part2button {
+  width: 50%;
+  height: 60px;
+  border: 1px solid rgb(170, 168, 168);
+  font-size: 25px;
+  background-color: #ff5b37;
+  color: white;
+  max-width: 250px;
+  transition: all 0.5s;
+}
+
+#part2button:hover {
+  background-color: white;
+  color: #ff5b37;
+}
+
+#part3 {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-bottom: 125px;
+}
+
+.part3div {
+  width: 300px;
+  height: 550px;
+  min-width: 300px;
+  border: 20px solid rgb(196, 196, 196);
+  background-color: rgb(196, 196, 196);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.part3div img {
+  width: 100%;
+  height: 75%;
+}
+
+.part3div h1 {
+  color: black;
+  transition: all 0.4s;
+}
+
+.part3div h1:hover {
+  color: red;
+}
+
+.part3div p {
+  color: black;
+  transition: all 0.4s;
+}
+
+.part3div p:hover {
+  color: red;
+}
+
+#part3header {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+#part3header h2 {
+  color: red;
+}
+
+#part4 {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-bottom: 125px;
+}
+
+.part4divs {
+  width: 300px;
+  height: 500px;
+  min-width: 300px;
+  border: 2px solid rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.part4divs p {
+  color: red;
+}
+
+.part4divs h1 {
+  margin-bottom: 0px;
+}
+.part4divs button {
+  width: 40px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.part4img1 {
+  width: 100%;
+  height: 60%;
+}
+
+.part4img2 {
+  width: 100%;
+  height: 100%;
+}
+
+#part4header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#part4header p {
+  color: red;
+}
+
+#part4header h1 {
+  margin-top: 0px;
+}

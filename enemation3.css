@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(11, 11, 31);
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#wave1{
+    position: fixed;
+    top: 250px; left: 250px;
+    animation: wave1 1s infinite alternate 0.4s;
+}
+
+#wave2{
+    position: fixed;
+    top: 250px; left: 285px;
+    animation: wave2 1s infinite alternate 0.5s;
+}
+
+#wave3{
+    position: fixed;
+    top: 250px; left: 310px;
+    animation: wave3 1s infinite alternate 0.6s;
+}
+
+#wave4{
+    position: fixed;
+    top: 250px; left: 335px;
+    animation: wave4 1s infinite alternate 0.7s;
+}
+
+#dot{
+    width: 15px; height: 15px;
+    background-color: turquoise;
+    border-radius: 15px;
+    position: fixed;
+    top: 300px;
+    left: 258px;
+    animation: dot 1s infinite 1.4s;
+
+}
+
+@keyframes dot {
+    0%{
+        width: 15px;height: 15px;
+        left: 258px;
+
+    }
+
+    50%{
+
+        width: 15px;height: 15px;
+        left: 258px;
+
+    }
+
+    80%{
+        height: 15px;
+        width: 30px;
+    }
+
+    100%{
+
+        width: 5px;height: 5px;
+        left: 360px;
+
+    }
+
+}
+
+
+
+
+@keyframes wave1 {
+    0%{
+        top: 250px;
+    }
+
+    50%{
+        top: 230px;
+
+
+    }
+    100%{
+        top: 230px;
+
+
+    }
+}
+
+@keyframes wave2 {
+    0%{
+        top: 250px;
+    }
+    25%{
+        top: 250px;
+    }
+    100%{
+        top: 230px;
+
+
+    }
+}
+
+@keyframes wave3 {
+    0%{
+        top: 250px;
+    }
+    25%{
+        top: 250px;
+    }
+    100%{
+        top: 230px;
+
+
+    }
+}
+
+@keyframes wave4 {
+    0%{
+        top: 250px;
+    }
+    25%{
+        top: 250px;
+    }
+    100%{
+        top: 230px;
+
+
+    }
+}
+
+
+
+
+
+
+
+
